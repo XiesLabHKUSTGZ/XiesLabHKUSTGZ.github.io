@@ -24,4 +24,8 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
+      # 控制列数布局：
+      # 1 = 每行1人，2 = 每行2人，3 = 每行3人，4 = 每行4人
+      # 默认值由主题自动决定（通常是响应式：桌面3-4人，平板2人，手机1人）
+      # columns: '3'  # 取消注释以固定每行3人
 ---
