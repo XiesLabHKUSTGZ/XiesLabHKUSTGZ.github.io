@@ -1,0 +1,41 @@
+/* 强制 People 页面每行显示3人 - 基于实际 HTML 结构 */
+.people-grid-3 .row,
+section.people-grid-3 .row {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 2rem !important;
+}
+
+/* 覆盖 Bootstrap 的列类 */
+.people-grid-3 .people-person,
+.people-grid-3 .col-12,
+.people-grid-3 .col-sm-auto {
+  grid-column: span 1 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  flex: none !important;
+}
+
+/* 确保卡片居中对齐 */
+.people-grid-3 .people-person {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+/* 在平板上每行2人 */
+@media (max-width: 992px) {
+  .people-grid-3 .row,
+  section.people-grid-3 .row {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* 在手机上每行1人 */
+@media (max-width: 576px) {
+  .people-grid-3 .row,
+  section.people-grid-3 .row {
+    grid-template-columns: 1fr !important;
+  }
+}
