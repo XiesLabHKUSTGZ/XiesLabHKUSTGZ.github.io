@@ -19,7 +19,7 @@ sections:
           - Visitors
           - Alumnus
       sort_by: Params.grade
-      sort_ascending: true  # -23 在 -24 前面（升序排列）
+      sort_ascending: false  # -23 (2023) 在 -24 (2024) 前面（降序排列）
     design:
       show_interests: false
       show_role: true
