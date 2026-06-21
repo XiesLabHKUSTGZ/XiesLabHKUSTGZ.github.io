@@ -1,5 +1,9 @@
 ---
 title: Recent & Upcoming Events
+draft: true
+_build:
+  render: never
+  list: never
 
 # Listing view
 view: compact

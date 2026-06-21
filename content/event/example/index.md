@@ -1,5 +1,9 @@
 ---
 title: Example Event
+draft: true
+_build:
+  render: never
+  list: never
 
 event: Wowchemy Conference
 event_url: https://example.org

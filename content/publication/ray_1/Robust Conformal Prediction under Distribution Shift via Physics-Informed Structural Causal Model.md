@@ -1,5 +1,5 @@
 ---
-title: 'Robust Conformal Prediction under Distribution Shift via Physics-Informed Structural Causal Model'
+title: 'Wasserstein-Regularized Conformal Prediction under General Distribution Shift'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -19,27 +19,27 @@ author_notes:
   - ''
   - 'Corresponding author: sihongxie@hkust-gz.edu.cn'
 
-date: '2024-03-22T00:00:00Z'
-doi: 'https://doi.org/10.48550/arXiv.2403.15025'
+date: '2025-04-01T00:00:00Z'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-03-22T00:00:00Z'
+publishDate: '2025-04-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['article']
+publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: arxiv
-publication_short: arxiv
+publication: International Conference on Learning Representations
+publication_short: ICLR 2025
 
 abstract: Uncertainty is critical to reliable decision-making with machine learning. Conformal prediction (CP) handles uncertainty by predicting a set on a test input, hoping the set to cover the true label with at least 1−α confidence. This coverage can be guaranteed on test data even if the marginal distributions $P_X$ differ between calibration and test datasets. However, as it is common in practice, when the conditional distribution $P_{Y|X}$ is different on calibration and test data, the coverage is not guaranteed and it is essential to measure and minimize the coverage loss under distributional shift at \textit{all} possible confidence levels. To address these issues, we upper bound the coverage difference at all levels using the cumulative density functions of calibration and test conformal scores and Wasserstein distance. Inspired by the invariance of physics across data distributions, we propose a physics-informed structural causal model (PI-SCM) to reduce the upper bound. We validated that PI-SCM can improve coverage robustness along confidence level and test domain on a traffic speed prediction task and an epidemic spread task with multiple real-world datasets.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [Causal, Distribution]
+tags: [Conformal Prediction, Distribution Shift]
 
 # Display this page in the Featured widget?
 featured: true
@@ -49,8 +49,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2403.15025'
-url_code: ''
+url_pdf: 'https://openreview.net/pdf?id=aJ3tiX1Tu4'
+url_code: 'https://github.com/rxu0112/WR-CP'
 url_dataset: ''
 url_poster: ''
 url_project: ''

@@ -76,7 +76,7 @@ sections:
           icon: graduation-cap
           icon_pack: fas
           text: Join Us
-          url: ../contact/
+          url: 'mailto:sihongxie@hkust-gz.edu.cn'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''

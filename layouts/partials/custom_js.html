@@ -1,0 +1,78 @@
+<script>
+  (function () {
+    var labMailto = 'mailto:sihongxie@hkust-gz.edu.cn';
+
+    function isContactHref(href) {
+      var url;
+      var path;
+
+      if (!href || href.indexOf('mailto:') === 0) {
+        return false;
+      }
+
+      try {
+        url = new URL(href, window.location.href);
+        path = url.pathname.replace(/\/$/, '');
+      } catch (error) {
+        path = href.split('?')[0].split('#')[0].replace(/\/$/, '');
+      }
+
+      return path === '/contact' || path === 'contact' || path === './contact' || path === '../contact';
+    }
+
+    function normalizeContactLinks() {
+      document.querySelectorAll('a[href]').forEach(function (link) {
+        if (isContactHref(link.getAttribute('href'))) {
+          link.setAttribute('href', labMailto);
+          link.removeAttribute('target');
+        }
+      });
+    }
+
+    document.addEventListener('click', function (event) {
+      var link = event.target.closest ? event.target.closest('a[href]') : null;
+
+      if (link && isContactHref(link.getAttribute('href'))) {
+        event.preventDefault();
+        window.location.href = labMailto;
+      }
+    }, true);
+
+    function updateHomepageScrollBar(scroller) {
+      var scrollable = scroller.scrollHeight - scroller.clientHeight;
+      var trackHeight = scroller.clientHeight;
+      var minThumb = 52;
+      var thumbHeight = scrollable > 0
+        ? Math.max(minThumb, trackHeight * (scroller.clientHeight / scroller.scrollHeight))
+        : trackHeight;
+      var maxTop = Math.max(0, trackHeight - thumbHeight);
+      var thumbTop = scrollable > 0 ? (scroller.scrollTop / scrollable) * maxTop : 0;
+
+      scroller.style.setProperty('--news-scroll-thumb-height', thumbHeight + 'px');
+      scroller.style.setProperty('--news-scroll-thumb-top', thumbTop + 'px');
+    }
+
+    function initHomepageScrollBars() {
+      document
+        .querySelectorAll('.homepage-news-timeline .col-12:not(.section-heading), .project-demo-scroll')
+        .forEach(function (scroller) {
+          updateHomepageScrollBar(scroller);
+          scroller.addEventListener('scroll', function () {
+            updateHomepageScrollBar(scroller);
+          }, { passive: true });
+        });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function () {
+        normalizeContactLinks();
+        initHomepageScrollBars();
+      });
+    } else {
+      normalizeContactLinks();
+      initHomepageScrollBars();
+    }
+
+    window.addEventListener('resize', initHomepageScrollBars);
+  })();
+</script>
