@@ -47,7 +47,23 @@ sections:
       subtitle: ''
       text: |
         <div class="project-demo-scroll">
-          <a class="project-demo-card" href="https://psg-nav.github.io/" target="_blank" rel="noopener">
+          <a class="project-demo-card" href="https://github.com/rxu0112/RAG-information-flow" target="_blank" rel="noopener">
+            <span class="project-demo-copy">
+              <span class="project-demo-title">Information Flow Reveals When to Trust Language Models</span>
+              <span class="project-demo-venue">ICML 2026</span>
+            </span>
+            <img class="project-demo-thumb" src="/uploads/project-demo/info-flow.png" alt="Information Flow project preview">
+          </a>
+
+          <a class="project-demo-card" href="https://github.com/yazhengliu/MemExplainer" target="_blank" rel="noopener">
+            <span class="project-demo-copy">
+              <span class="project-demo-title">Towards the Explainability of Temporal Graph Networks via Memory Backtracking and Topological Attribution</span>
+              <span class="project-demo-venue">ICML 2026</span>
+            </span>
+            <img class="project-demo-thumb" src="/uploads/project-demo/memexplainer.png" alt="MemExplainer project preview">
+          </a>
+
+          <a class="project-demo-card" href="https://github.com/Chenrf1121/psg-nav" target="_blank" rel="noopener">
             <span class="project-demo-copy">
               <span class="project-demo-title">PSG-Nav: Probabilistic Scene Graph Navigation via Multiverse Decision Making</span>
               <span class="project-demo-venue">ICML 2026</span>
@@ -55,28 +71,12 @@ sections:
             <img class="project-demo-thumb" src="/uploads/project-demo/psg-nav.png" alt="PSG-Nav project preview">
           </a>
 
-          <a class="project-demo-card" href="https://github.com/FUTUREEEEEE/CogniBench" target="_blank" rel="noopener">
-            <span class="project-demo-copy">
-              <span class="project-demo-title">CogniBench: A Benchmark for Evaluating LLM Cognitive Abilities</span>
-              <span class="project-demo-venue">ACL 2025</span>
-            </span>
-            <img class="project-demo-thumb" src="/uploads/project-demo/cognibench.svg" alt="CogniBench project preview">
-          </a>
-
-          <a class="project-demo-card" href="https://github.com/FUTUREEEEEE/Dynamic-RAG" target="_blank" rel="noopener">
-            <span class="project-demo-copy">
-              <span class="project-demo-title">Bandit-enhanced Retrieval-Augmented Generation over Knowledge Graphs</span>
-              <span class="project-demo-venue">AAAI 2025</span>
-            </span>
-            <img class="project-demo-thumb" src="/uploads/project-demo/dynamic-rag.svg" alt="Dynamic-RAG project preview">
-          </a>
-
           <a class="project-demo-card" href="https://github.com/rxu0112/WR-CP" target="_blank" rel="noopener">
             <span class="project-demo-copy">
               <span class="project-demo-title">Wasserstein-Regularized Conformal Prediction under General Distribution Shift</span>
               <span class="project-demo-venue">ICLR 2025</span>
             </span>
-            <img class="project-demo-thumb" src="/uploads/project-demo/wr-cp.svg" alt="WR-CP project preview">
+            <img class="project-demo-thumb" src="/uploads/project-demo/wr-cp.png" alt="WR-CP project preview">
           </a>
 
           <a class="project-demo-card" href="https://github.com/yazhengliu/Axiomatic-Layer-Edges" target="_blank" rel="noopener">
@@ -84,7 +84,23 @@ sections:
               <span class="project-demo-title">Explainable GNNs via Multi-level Attribution</span>
               <span class="project-demo-venue">ICLR 2025</span>
             </span>
-            <img class="project-demo-thumb" src="/uploads/project-demo/gnn-attribution.svg" alt="GNN attribution project preview">
+            <img class="project-demo-thumb" src="/uploads/project-demo/gnn-attribution.png" alt="GNN attribution project preview">
+          </a>
+
+          <a class="project-demo-card" href="https://github.com/FUTUREEEEEE/CogniBench" target="_blank" rel="noopener">
+            <span class="project-demo-copy">
+              <span class="project-demo-title">CogniBench: A Benchmark for Evaluating LLM Cognitive Abilities</span>
+              <span class="project-demo-venue">ACL 2025</span>
+            </span>
+            <img class="project-demo-thumb" src="/uploads/project-demo/cognibench.png" alt="CogniBench project preview">
+          </a>
+
+          <a class="project-demo-card" href="https://github.com/FUTUREEEEEE/Dynamic-RAG" target="_blank" rel="noopener">
+            <span class="project-demo-copy">
+              <span class="project-demo-title">Bandit-enhanced Retrieval-Augmented Generation over Knowledge Graphs</span>
+              <span class="project-demo-venue">AAAI 2025</span>
+            </span>
+            <img class="project-demo-thumb" src="/uploads/project-demo/dynamic-rag.png" alt="Dynamic-RAG project preview">
           </a>
 
           <a class="project-demo-card" href="https://github.com/MengzSun/KDCN" target="_blank" rel="noopener">
@@ -92,7 +108,7 @@ sections:
               <span class="project-demo-title">Inconsistent Matters: A Knowledge-guided Dual-consistency Network for Multi-modal Rumor Detection</span>
               <span class="project-demo-venue">TKDE 2023</span>
             </span>
-            <img class="project-demo-thumb" src="/uploads/project-demo/kdcn.svg" alt="KDCN project preview">
+            <img class="project-demo-thumb" src="/uploads/project-demo/kdcn.png" alt="KDCN project preview">
           </a>
         </div>
     design:
