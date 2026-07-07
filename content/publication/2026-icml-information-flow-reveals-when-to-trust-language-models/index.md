@@ -23,7 +23,7 @@ links:
   - name: 'BibTeX'
     url: 'https://sihongxie.github.io/paper/icml26xu.bib'
 
-url_pdf: ''
+url_pdf: 'https://github.com/rxu0112/RAG-information-flow/blob/main/Information_Flow_Reveals_When_to_Trust_Language_Models.pdf'
 url_code: 'https://github.com/rxu0112/RAG-information-flow'
 url_dataset: ''
 url_poster: ''
