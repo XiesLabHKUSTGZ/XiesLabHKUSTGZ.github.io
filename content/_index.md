@@ -81,7 +81,7 @@ sections:
 
           <a class="project-demo-card" href="https://github.com/yazhengliu/Axiomatic-Layer-Edges" target="_blank" rel="noopener">
             <span class="project-demo-copy">
-              <span class="project-demo-title">Explainable GNNs via Multi-level Attribution</span>
+              <span class="project-demo-title">Explanations of GNN on Evolving Graphs via Axiomatic Layer Edges</span>
               <span class="project-demo-venue">ICLR 2025</span>
             </span>
             <img class="project-demo-thumb" src="/uploads/project-demo/gnn-attribution.png" alt="GNN attribution project preview">
@@ -89,7 +89,7 @@ sections:
 
           <a class="project-demo-card" href="https://github.com/FUTUREEEEEE/CogniBench" target="_blank" rel="noopener">
             <span class="project-demo-copy">
-              <span class="project-demo-title">CogniBench: A Benchmark for Evaluating LLM Cognitive Abilities</span>
+              <span class="project-demo-title">CogniBench: A Legal-inspired Framework and Dataset for Assessing Cognitive Faithfulness of Large Language Models</span>
               <span class="project-demo-venue">ACL 2025</span>
             </span>
             <img class="project-demo-thumb" src="/uploads/project-demo/cognibench.png" alt="CogniBench project preview">
@@ -97,7 +97,7 @@ sections:
 
           <a class="project-demo-card" href="https://github.com/FUTUREEEEEE/Dynamic-RAG" target="_blank" rel="noopener">
             <span class="project-demo-copy">
-              <span class="project-demo-title">Bandit-enhanced Retrieval-Augmented Generation over Knowledge Graphs</span>
+              <span class="project-demo-title">Adapting to Non-Stationary Environments: Multi-Armed Bandit Enhanced Retrieval-Augmented Generation on Knowledge Graphs</span>
               <span class="project-demo-venue">AAAI 2025</span>
             </span>
             <img class="project-demo-thumb" src="/uploads/project-demo/dynamic-rag.png" alt="Dynamic-RAG project preview">

@@ -1,5 +1,5 @@
 ---
-title: 'CogniBench: A Benchmark for Evaluating LLM Cognitive Abilities'
+title: 'CogniBench: A Legal-inspired Framework and Dataset for Assessing Cognitive Faithfulness of Large Language Models'
 
 authors:
   - 'Xiaqiang Tang'

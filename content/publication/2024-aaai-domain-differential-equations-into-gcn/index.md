@@ -1,5 +1,5 @@
 ---
-title: 'Domain Differential Equations into GCN'
+title: 'Incorporating Domain Differential Equations into Graph Convolutional Networks to Lower Generalization Discrepancy'
 
 authors:
   - 'Yue Sun'
@@ -21,7 +21,7 @@ abstract: ''
 tags: []
 featured: false
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/abs/2404.01217'
 url_code: ''
 url_dataset: ''
 url_poster: ''

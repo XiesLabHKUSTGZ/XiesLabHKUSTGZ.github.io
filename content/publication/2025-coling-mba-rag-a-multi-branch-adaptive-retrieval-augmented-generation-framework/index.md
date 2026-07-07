@@ -1,5 +1,5 @@
 ---
-title: 'MBA-RAG: A Multi-Branch Adaptive Retrieval-Augmented Generation Framework'
+title: 'MBA-RAG: A Bandit Approach for Adaptive Retrieval-Augmented Generation through Question Complexity'
 
 authors:
   - 'Xiaqiang Tang'
@@ -25,8 +25,8 @@ links:
   - name: 'BibTeX'
     url: 'https://sihongxie.github.io/paper/coling25.bib'
 
-url_pdf: 'https://sihongxie.github.io/paper/coling25.pdf'
-url_code: ''
+url_pdf: 'https://aclanthology.org/2025.coling-main.218.pdf'
+url_code: 'https://github.com/FUTUREEEEEE/MBA'
 url_dataset: ''
 url_poster: ''
 url_project: ''

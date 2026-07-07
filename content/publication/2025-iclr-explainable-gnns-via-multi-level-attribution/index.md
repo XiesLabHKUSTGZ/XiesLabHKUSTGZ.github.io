@@ -1,5 +1,5 @@
 ---
-title: 'Explainable GNNs via Multi-level Attribution'
+title: 'Explanations of GNN on Evolving Graphs via Axiomatic Layer Edges'
 
 authors:
   - 'Yazheng Liu'

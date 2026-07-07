@@ -1,11 +1,10 @@
 ---
-title: 'Efficient Multitask Learning with Expert Routing'
+title: 'X-EviProbe: Post-hoc Parameter-free Evidential Uncertainty Quantification for Frozen Graph Neural Networks'
 
 authors:
   - 'Chenghua Guo'
   - admin
   - 'Xi Zhang'
-  - 'Hui Xiong'
 
 date: '2026-05-01T00:00:00Z'
 publishDate: '2026-05-01T00:00:00Z'
@@ -18,6 +17,10 @@ publication_short: 'ICML 2026'
 abstract: ''
 tags: []
 featured: false
+
+links:
+  - name: 'BibTeX'
+    url: 'https://sihongxie.github.io/paper/icml26guo.bib'
 
 url_pdf: ''
 url_code: ''

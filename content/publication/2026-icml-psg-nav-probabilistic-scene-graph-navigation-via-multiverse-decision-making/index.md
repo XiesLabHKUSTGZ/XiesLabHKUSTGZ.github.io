@@ -1,5 +1,5 @@
 ---
-title: 'Noise-Robust Cross-Lingual Code Retrieval via Code Cloze Style Augmentation'
+title: 'PSG-Nav: Probabilistic Scene Graph Navigation via Multiverse Decision Making'
 
 authors:
   - 'Rufeng Chen'
@@ -24,8 +24,8 @@ links:
   - name: 'BibTeX'
     url: 'https://sihongxie.github.io/paper/icml26chen.bib'
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2606.01313'
+url_code: 'https://github.com/Chenrf1121/psg-nav'
 url_dataset: ''
 url_poster: ''
 url_project: ''

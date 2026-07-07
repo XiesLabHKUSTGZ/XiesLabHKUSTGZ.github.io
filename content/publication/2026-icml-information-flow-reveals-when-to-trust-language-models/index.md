@@ -24,7 +24,7 @@ links:
     url: 'https://sihongxie.github.io/paper/icml26xu.bib'
 
 url_pdf: ''
-url_code: ''
+url_code: 'https://github.com/rxu0112/RAG-information-flow'
 url_dataset: ''
 url_poster: ''
 url_project: ''

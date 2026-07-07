@@ -1,5 +1,5 @@
 ---
-title: 'REFO: Reinforced Evolutionary Faithfulness Optimization for LLMs'
+title: 'REFO: Reinforced Evolutionary Faithfulness Optimization for Large Language Models'
 
 authors:
   - 'Yi Wang'
@@ -21,10 +21,10 @@ tags: []
 featured: false
 
 links:
-  - name: 'BibTeX'
-    url: 'https://sihongxie.github.io/paper/aaai26wang.bib'
+  - name: 'AAAI'
+    url: 'https://ojs.aaai.org/index.php/AAAI/article/view/40660'
 
-url_pdf: ''
+url_pdf: 'https://ojs.aaai.org/index.php/AAAI/article/download/40660/44621'
 url_code: ''
 url_dataset: ''
 url_poster: ''

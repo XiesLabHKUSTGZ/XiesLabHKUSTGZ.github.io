@@ -1,5 +1,5 @@
 ---
-title: 'Robust Explanations for Graph Neural Networks via Graph Curvatures'
+title: 'Robust Explanations of Graph Neural Networks via Graph Curvatures'
 
 authors:
   - 'Yazheng Liu'
@@ -20,11 +20,11 @@ tags: []
 featured: false
 
 links:
-  - name: 'BibTeX'
-    url: 'https://sihongxie.github.io/paper/nips25liu.bib'
+  - name: 'NeurIPS'
+    url: 'https://neurips.cc/virtual/2025/poster/119972'
 
 url_pdf: ''
-url_code: ''
+url_code: 'https://github.com/yazhengliu/Robustexplanationcurvature'
 url_dataset: ''
 url_poster: ''
 url_project: ''

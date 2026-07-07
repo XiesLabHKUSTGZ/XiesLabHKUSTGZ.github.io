@@ -1,5 +1,5 @@
 ---
-title: 'Periodic Prompt on Dynamic Heterogeneous Graph'
+title: 'Periodic Prompt on Dynamic Heterogeneous Graph for Next Basket Recommendation'
 
 authors:
   - 'Ru-Bin Li'

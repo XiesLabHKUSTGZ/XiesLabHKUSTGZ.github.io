@@ -1,5 +1,5 @@
 ---
-title: 'Stable Explanation for Graph Neural Networks'
+title: 'Training for Stable Explanation for Free'
 
 authors:
   - 'Chao Chen'
@@ -24,11 +24,11 @@ tags: []
 featured: false
 
 links:
-  - name: 'BibTeX'
-    url: 'https://sihongxie.github.io/paper/nips24chen.bib'
+  - name: 'OpenReview'
+    url: 'https://openreview.net/forum?id=HYa3eu8scG'
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://openreview.net/pdf?id=HYa3eu8scG'
+url_code: 'https://github.com/ccha005/R2ET'
 url_dataset: ''
 url_poster: ''
 url_project: ''

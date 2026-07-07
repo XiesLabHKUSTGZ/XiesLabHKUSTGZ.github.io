@@ -1,5 +1,5 @@
 ---
-title: 'Bandit-enhanced Retrieval-Augmented Generation over Knowledge Graphs'
+title: 'Adapting to Non-Stationary Environments: Multi-Armed Bandit Enhanced Retrieval-Augmented Generation on Knowledge Graphs'
 
 authors:
   - 'Xiaqiang Tang'
@@ -23,7 +23,7 @@ links:
   - name: 'BibTeX'
     url: 'https://sihongxie.github.io/paper/aaai25.bib'
 
-url_pdf: 'https://sihongxie.github.io/paper/aaai25.pdf'
+url_pdf: 'https://arxiv.org/abs/2412.07618'
 url_code: 'https://github.com/FUTUREEEEEE/Dynamic-RAG'
 url_dataset: ''
 url_poster: ''
